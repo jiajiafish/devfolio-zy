@@ -96,12 +96,11 @@ const Projects = ({ isDesktop, clientHeight }) => {
             PROJECTS
           </p>
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-            My Projects
-          </h1>
+              我的设计作品
+            </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-            Some things I&apos;ve built with love, expertise and a pinch of
-            magical ingredients.{" "}
-          </h2>
+              我用心、专业与创意打造的汽车内饰设计作品，展现豪华与科技的完美融合{" "}
+            </h2>
         </div>
         <div
           className={`${

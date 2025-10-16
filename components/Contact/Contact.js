@@ -268,7 +268,7 @@ const Contact = () => {
             </h1>
           </div>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-            Get In Touch.{" "}
+            与我联系，探讨汽车内饰设计的未来。{" "}
           </h2>
         </div>
 
@@ -287,7 +287,7 @@ const Contact = () => {
                 htmlFor="name"
                 className="absolute top-0 left-0 h-full flex items-center pl-4 text-lg font-mono transform transition-all"
               >
-                Name
+                姓名
               </label>
             </div>
 
@@ -304,7 +304,7 @@ const Contact = () => {
                 htmlFor="email"
                 className="absolute top-0 left-0 h-full flex items-center pl-4 text-lg font-mono transform transition-all"
               >
-                Email
+                邮箱
               </label>
             </div>
 
@@ -320,7 +320,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="absolute top-0 left-0 h-14 flex items-center pl-4 text-lg font-mono transform transition-all"
               >
-                Message
+                留言
               </label>
             </div>
           </Fade>
@@ -345,12 +345,12 @@ const Contact = () => {
             }
             onClick={handleSubmit}
           >
-            <span>Send -&gt;</span>
+            <span>发送 -&gt;</span>
             <span className={styles.success}>
               <svg viewBox="0 0 16 16">
                 <polyline points="3.75 9 7 12 13 5"></polyline>
               </svg>
-              Sent
+              已发送
             </span>
             <svg className={styles.trails} viewBox="0 0 33 64">
               <path d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"></path>

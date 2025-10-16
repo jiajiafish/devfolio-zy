@@ -79,13 +79,13 @@ const Hero = () => {
         <h5
           className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
         >
-          Hi, my name is
+          您好，我是
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
-            Shubh
+            张越
           </span>
-          <span className="staggered-reveal"> Porwal</span>
+          <span className="staggered-reveal"> | 汽车内饰设计师</span>
         </h1>
         <p>
           <span
@@ -98,7 +98,7 @@ const Hero = () => {
         </div>
         <div className="staggered-reveal pt-4">
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Let&apos;s Talk
+            联系我
           </Button>
         </div>
       </div>

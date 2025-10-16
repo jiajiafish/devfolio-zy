@@ -61,9 +61,9 @@ export default function Home() {
           <main className="flex flex-col">
             <div
               role="img"
-              className="text-gray-light-1 opacity-10 sm:text-9xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
+              className="text-gray-light-1 opacity-10 sm:text-8xl xs:text-7xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
             >
-              DEV
+              ZEEKR
             </div>
             <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
             <Hero />
